@@ -1,0 +1,6 @@
+<div class="container-fluid mt-3">
+  <h3>List of posts</h3>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let post of posts">{{post.title | titlecase}}</li>
+  </ul>
+</div>
